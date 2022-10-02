@@ -6,5 +6,9 @@ public class Main {
         System.out.println(flat1.getBalcony());
         flat1.setCity("Gliwice");
         System.out.println(flat1.getCity());
+
+        Flat flat2 = new Flat(3, "Katowice", true);
+        flat2.setFloor(1);
+        System.out.println(flat2.getFloor());
     }
 }
