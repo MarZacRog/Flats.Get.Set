@@ -17,4 +17,13 @@ public class Flat {
     public boolean getBalcony(){
         return balcony;
     }
+    public void setBalcony(boolean balcony){
+        this.balcony = balcony;
+    }
+    public void setFloor(int floor){
+        this.floor = floor;
+    }
+    public void setCity(String city){
+        this.city = city;
+    }
 }
